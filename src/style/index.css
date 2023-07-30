@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f2f5;
+}
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 13rem;
+    gap: 10rem;
+    height: 100%;
+    min-height: 99vh;
+}

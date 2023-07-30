@@ -1,0 +1,45 @@
+.LoginForm{
+    height: 20rem;
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.5em 0;
+    row-gap: 1rem;
+    border-radius: 5px;
+}
+
+
+form {
+    width: 90%;
+}
+input {
+    border-style: solid;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 0.9rem;
+    padding: 0.9rem;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    padding:none;
+    text-decoration: none;
+    color: blue;
+}
+
+hr {
+    opacity: 0.25;
+    margin-top: 0.1rem;
+    width: 80%;
+    color: gray;
+}
